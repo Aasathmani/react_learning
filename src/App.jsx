@@ -1,6 +1,4 @@
-import TabButton from "./components/TabButton.jsx";
-import {Fragment, useState} from "react";
-import { Examples } from "./data.js";
+import {Fragment} from "react";
 import './App.css';
 import { Example } from "./components/Example.jsx"
 
@@ -18,7 +16,7 @@ export default function App(){
                 <section id="core-concepts">
                 <h2>Core Concepts</h2>
                 </section>
-               <Example/>
+               <Example/> 
                 
             </main>
         </Fragment>  
